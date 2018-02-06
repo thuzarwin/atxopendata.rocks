@@ -1,0 +1,26 @@
+<a class="skipnav" href="#main-content">Skip to main content</a>
+<header role="banner">
+  <div class="usa-disclaimer">
+    <div class="usa-disclaimer-official usa-grid">
+      <p>An official website City of Austin</p>
+    </div>
+  </div>
+  <div class="site-navbar usa-grid">
+    <button class="menu-btn">Menu</button>
+    <a class="site-logo media_link" href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/img/logos/atx-logo.jpg" alt="city of austin open data logo"
+      {% if page.url == '/' %}
+        aria-hidden="true"
+      {% endif %}
+      ></a>
+    {% if page.url == '/' %}
+      <h1 class="usa-sr-only">18F</h1>
+      {% else %}
+        <span class="usa-sr-only">18F</span>
+    {% endif %}
+    <nav role="navigation">
+      {% include navigation.html navbar=true %}
+    </nav>
+  </div>
+</header>
+<div class="overlay"></div>
