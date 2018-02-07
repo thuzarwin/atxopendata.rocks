@@ -1,0 +1,53 @@
+navbar:
+- text: Getting Started
+  permalink: /start/
+- text: Data liaisons & Publishers
+  permalink: /liaisons/
+- text: Resources
+  permalink: /resources/
+- text: About
+  permalink: /about/
+- text: Blog
+  permalink: /blog/
+  multiple_permalinks:
+    - /blog/:path/
+    - /tags/:path/
+    - /author/:path/
+- text: Contact
+  permalink: /contact/
+
+drawer:
+- text: Getting Started
+  permalink: /start/
+- text: Data liaisons & Publishers
+  permalink: /liaisons/
+- text: Resources
+  permalink: /resources/
+- text: About
+  permalink: /about/
+- text: Blog
+  permalink: /blog/
+  multiple_permalinks:
+    - /blog/:path/
+    - /tags/:path/
+    - /author/:path/
+- text: Contact
+  permalink: /contact/
+
+footer:
+  - text: Getting Started
+    permalink: /
+  - text: Data liaisons & Publishers
+    permalink: /liaisons/
+  - text: Resources
+    permalink: /resources/
+  - text: About
+    permalink: /about/
+  - text: Blog
+    permalink: /blog/
+    multiple_permalinks:
+      - /blog/:path/
+      - /tags/:path/
+      - /author/:path/
+  - text: Contact
+    permalink: /contact/

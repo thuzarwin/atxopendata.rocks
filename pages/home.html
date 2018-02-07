@@ -1,0 +1,66 @@
+---
+permalink: /
+layout: default
+title: Home
+redirect_from: /dashboard/
+---
+
+<section class="background-dark">
+  <section class="hero hero-primary">
+    <div class="usa-grid">
+      <div class="hero-callout hero-callout-primary background-dark usa-width-one-third usa-width-tablet">
+        <h3> Welcome to The Austin Open Data Portal Support!!!</h3>
+        <div class="blog-search">
+          <form class="usa-search usa-search-small" action="{{ site.baseurl }}/search/">
+            <div role="search">
+              <label class="usa-sr-only" for="search-field-small">Search small</label>
+              <input id="search-field-small" type="search" name="q" placeholder = "Search">
+              <button type="submit">
+                <span class="usa-sr-only">Search</span>
+              </button>
+            </div>
+          </form>
+        </div>
+    </div>
+  </section>
+</section>
+
+<section class="usa-section background-gray">
+  <section class="usa-grid">
+    {% include card-project.html
+        project='liaisons'
+    %}
+    {% include card-project.html
+       project='start'
+    %}
+
+    {% include card-project.html
+       project='events'
+    %}
+  </section>
+  <section class="usa-grid">
+    {% include card-project.html
+       project='resources'
+    %}
+    {% include card-project.html
+       project='sprints'
+    %}
+
+    {% include card-project.html
+       project='eregs'
+    %}
+  </section>
+  </section>
+  <section class="usa-grid usa-section posts_feature">
+    <h2><a href="{{ site.baseurl }}/blog/">Recent blog posts</a></h2>
+    <ul>
+      {% for post in site.posts limit:3 %}
+        {% include post.html
+           post_date=post.date
+           post_title=post.title
+           post_excerpt=post.excerpt
+           post_url=post.url
+        %}
+      {% endfor %}
+    </ul>
+  </section>
