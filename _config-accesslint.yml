@@ -31,8 +31,5 @@ exclude:
 - package.json
 - pages/our-work.html
 - PULL_REQUEST_TEMPLATE.md
-- README.md
-- robots.txt
-- search-index*
 ---
 
