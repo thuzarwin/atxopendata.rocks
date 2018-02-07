@@ -6,10 +6,7 @@ header_border: true
 {% assign matching_posts = page | match_posts | sort:'date' | reverse %}
 
 
-{% include breadcrumb.html
-  parent_permalink='/what-we-deliver/'
-  parent_title='What we deliver'
-%}
+
 
 <section class="page-tag-results">
 
@@ -39,7 +36,7 @@ header_border: true
   </section>
 
   <div class="usa-grid-full usa-grid-reversed">
-    {% assign any_clients = page.product_clients.size > 0 %}
+    {% assign any_clients = page.side_baratx.size > 0 %}
 
     {% if page.agency or
           page.project_url or
@@ -83,9 +80,9 @@ header_border: true
 
         {% if any_clients %}
         <li class="section-info-list-item">
-          <div class="section-info-header">Agency partners</div>
-          <ul class="{% unless page.product_clients.size > 1 %}usa-unstyled-list{% endunless %}">
-          {% for client in page.product_clients %}
+          <div class="section-info-header">Publishing</div>
+          <ul class="{% unless page.side_baratx.size > 1 %}usa-unstyled-list{% endunless %}">
+          {% for client in page.side_baratx %}
             <li>{{ client }}</li>
           {% endfor %}
           </ul>

@@ -13,7 +13,7 @@ project_weight: 1
 github_repo:
 project_url: "[Agile BPA website](https://ads.18f.gov/)"
 learn_more:
-product_clients:
+side_baratx:
 - Department of Agriculture
 - Department of Housing and Urban Development
 - Department of Labor

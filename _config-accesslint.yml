@@ -36,7 +36,5 @@ exclude:
 - search-index*
 - spec/
 - system-security-plan.yml
-- tags/
-- tests/
 ---
 

@@ -15,9 +15,9 @@ related_posts: 3
 
 analytics:
   google:
-    code: 'UA-48605964-1' # Change this to your GSA analytics code
+    code: '' # Change this to your GSA analytics code
   dap:
-    agency: GSA    # Change this to your agency
+    agency:    # Change this to your agency
     subagency:  # Change this to your agency
 
 # blog archive at /blog
@@ -35,21 +35,21 @@ collections:
   about:
     output: true
     permalink: /:path/
-  principles:
+  resources:
     output: true
-    permalink: /partnership-principles/:path/
-  join:
+    permalink: /resources/:path/
+  liaisons:
     output: true
-    permalink: /join/:path/
+    permalink: /liaisons/:path/
   authors:
     output: true
     permalink: /author/:name/
-  press:
+  start:
     output: true
-    permalink: /press/:name/
+    permalink: /start/:name/
   projects:
     output: true
-    permalink: /what-we-deliver/:path/
+    permalink: /resource/:path/
   contact:
     output: false
     permalink: /contact/:path/
@@ -89,20 +89,20 @@ defaults:
     subnav_anchor: /about/
  -
   scope:
-    path: "_principles"
+    path: "_publish"
   values:
     layout: primary
     include_subnav: true
-    subnav_anchor: /partnership-principles/
+    subnav_anchor: /publish/
  -
   scope:
-    path: "_join"
+    path: "_howto"
   values:
     layout: primary
     include_subnav: true
-    subnav_anchor: /join/
-    parent_title: Join 18F
-    parent_permalink: /join/
+    subnav_anchor: /howto/
+    parent_title: Getting Started
+    parent_permalink: /howto/
  -
   scope:
     path: "_projects"
@@ -122,8 +122,8 @@ footer:
   image: /assets/img/logos/go-bot-opd.png
   email:
   twitter:
-    - 18f
-    - usgsa
+    - atxgo
+    - austintexasgov
   text: This site was built using <a href="https://federalist.18f.gov/" target="_blank">Federalist, from 18F</a>. # Change to a tag line for your agency
 
 # Build settings

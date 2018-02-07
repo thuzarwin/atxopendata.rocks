@@ -1,8 +1,8 @@
 navbar:
 - text: Getting Started
-  permalink: /
+  permalink: /start/
 - text: Data liaisons & Publishers
-  permalink: /
+  permalink: /liaisons/
 - text: Resources
   permalink: /resources/
 - text: About
@@ -17,16 +17,12 @@ navbar:
   permalink: /contact/
 
 drawer:
-- text: What we deliver
-  permalink: /what-we-deliver/
-  multiple_permalinks:
-    - /what-we-deliver/:path/
-- text: How we work
-  permalink: /how-we-work/
 - text: Getting Started
-  permalink: /
+  permalink: /start/
 - text: Data liaisons & Publishers
-  permalink: /
+  permalink: /liaisons/
+- text: Resources
+  permalink: /resources/
 - text: About
   permalink: /about/
 - text: Blog
@@ -39,16 +35,14 @@ drawer:
   permalink: /contact/
 
 footer:
-  - text: What we deliver
-    permalink: /what-we-deliver/
-    multiple_permalinks:
-    - /what-we-deliver/:path/
-  - text: About 18F
+  - text: Getting Started
+    permalink: /
+  - text: Data liaisons & Publishers
+    permalink: /liaisons/
+  - text: Resources
+    permalink: /resources/
+  - text: About
     permalink: /about/
-  - text: Partnership Principles
-    permalink: /partnership-principles/
-  - text: Join 18F
-    permalink: /join/
   - text: Blog
     permalink: /blog/
     multiple_permalinks:

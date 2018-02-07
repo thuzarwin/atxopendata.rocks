@@ -12,7 +12,7 @@ expiration_date:
 github_repo: https://github.com/18F/web-design-standards
 project_url: "[U.S. Web Design Standards website](https://standards.usa.gov/)"
 learn_more:
-product_clients:
+side_baratx:
 layout: primary
 ---
 

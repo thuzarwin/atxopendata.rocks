@@ -12,7 +12,7 @@ expiration_date:
 github_repo:
 project_url: "[The New Ten website](https://thenew10.treasury.gov/)"
 learn_more:
-product_clients:
+side_baratx:
 ---
 
 Occasionally, our country’s currency needs technical and aesthetic
