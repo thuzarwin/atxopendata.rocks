@@ -1,9 +1,8 @@
 ---
-agency: Department of the Treasury
-title: Terms of Use & Licensing
-subtitle: Shaping the story of the New Ten
-permalink: /usage/
-excerpt: Treasury worked with 18F to ensure that the introduction of the New Ten would help users find the information they needed and include a clear call to action.
+title: Open Data Sprints
+subtitle: The City of Austin Open Data Sprints
+permalink: /sprints/
+excerpt: things we are working on.....
 image: /assets/img/projects/money-10.png
 image_accessibility: "A graphic of the US ten dollar bill on a blue background"
 image_icon: gavel.svg

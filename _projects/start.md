@@ -1,7 +1,7 @@
 ---
-agency:
-title: Open Data Liaisons & Publishers
-subtitle: The City of Austin Open Data Glossary
+agency: Using Open Data
+title: Getting Started on Open Data
+subtitle: Getting Started
 permalink: /start/
 excerpt: everything you need to know......
 image:

@@ -35,6 +35,5 @@ exclude:
 - robots.txt
 - search-index*
 - spec/
-- system-security-plan.yml
 ---
 

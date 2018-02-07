@@ -1,12 +1,20 @@
 ---
 title: Resources
+subtitle: Resources
 permalink: /resources/
 layout: primary
-lead: learm learn learn
 content_wide: true
 content_focus: false
 banner_cta: true
 gridless: true
+excerpt: everything you need to know......
+image: /assets/img/projects/open_data_howto.png
+image_accessibility:
+image_icon: /assets/img/projects/open_data_howto.png
+project_weight: 1
+learn_more:
+resources: "[Loading a Dataset ]()"
+quote:
 ---
 
 <div class="usa-grid">

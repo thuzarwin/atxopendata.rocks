@@ -1,10 +1,10 @@
 ---
-agency:
+agency: Publishing on Open Data
 title: Open Data Liaisons & Publishers
-subtitle: The City of Austin Open Data Glossary
+subtitle: Open Data Liaisons & Publishers
 permalink: /liaisons/
 excerpt: everything you need to know......
-image:
+image: /assets/img/projects/open_data_howto.png
 image_accessibility:
 image_icon: /assets/img/projects/open_data_howto.png
 project_weight: 1
@@ -14,7 +14,7 @@ quote:
 ---
 
 Open Data Liaisons implement their department’s Open Data plans in relation to the City of Austin’s Open Data Initiative (ODI) and City Manager’s “open by default” directive. The Liaison may be an owner, implementer or coordinator of departmental data and data-related resources. The liaison will be the single point of contact between the department and the Corporate Open Data team.
-<hr>
+
 <div class="small-caps">Description</div>
 ### Key tasks and areas of responsibility
 - Coordinate and manage departmental Open Data efforts in relation to the City of Austin’s ODI.
