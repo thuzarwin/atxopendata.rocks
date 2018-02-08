@@ -32,13 +32,14 @@ In December 2011, Austin’s City Council voted to officially support the adopti
 -----
 ## Meet the Team
 we are a team of ...........whose mission is to help City of Austin departments and staff to perform the open data responsibilities outlined in the Open Government Directive.
-- Charles Purma III 
-- Anne Whitlocke 
+- Charles Purma III
+- Anne Whitlocke
 - Brad McCarty
 - Happiness Kisoso
 - Marbenn Cayetano
-- Sara Smith 
+- Sara Smith
 - Wei San Hui
+
 
 -----
 
