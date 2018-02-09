@@ -27,6 +27,5 @@ exclude:
 - LICENSE.md
 - node_modules
 - package.json
-- pages/our-work.html
 ---
 
