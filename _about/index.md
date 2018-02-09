@@ -3,7 +3,7 @@ title: About The City of Austin Open Data Initiative
 permalink: /about/
 layout: primary
 lead: The City of Austin is committed to an open and transparent government.
-banner_cta: true
+banner_cta: false
 subnav_items:
   - text: History
     permalink: /about/#history
