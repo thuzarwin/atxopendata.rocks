@@ -2,7 +2,6 @@
 
 This repo houses the City of Austin Open Data Website - atxopendata.rocks, a public resource website which informs, educates, and encourages the use of the [City of Austin Open Data Portal.](http://data.austintexas.gov)
 
-### Where to Start? 
 
 ## Installation
 
