@@ -15,31 +15,29 @@ Run each of the following steps to get the site up and running.
 
 You should be able to see the site at: http://127.0.0.1:4000/site/
 
-## Enviroments
-
-- **GitHub:** `gh-pages`
-
-
 ## Deployment 
-We use Github Pages to host. To deploy a subfoldercontaining the site to GitHub Pages.
 
-For this example, let’s pretend the subfolder containing your site is named `rocks`
+We use Github Pages to host. 
+
+To deploy, for this example, let’s pretend the subfolder containing your site is named `open`
+
+Please follow the steps below to deploy to `gh-pages` from a `open` folder on the master branch. 
 
 **Step 1
 
-Remove the `rocks` directory from the project’s .gitignore file (it’s ignored by default by Yeoman).
+Remove the `open` directory from the project’s .gitignore file (it’s ignored by default by Yeoman).
 
 **Step 2
 
 Make sure git knows about your subtree (the subfolder with your site).
 
-`git add rocks && git commit -m "Initial rocks subtree commit"`
+`open add rocks && git commit -m "Initial open subtree commit"`
 
 **Step 3
 
 Use subtree push to send it to the gh-pages branch on GitHub.
 
-`git subtree push --prefix `rocks` origin gh-pages`
+`git subtree push --prefix open origin gh-pages`
 
-Great! If your folder isn’t called `rocks`, then you’ll need to change that in each of the commands above.
+Great! If your folder isn’t called `open`, then you’ll need to change that in each of the commands above.
 
