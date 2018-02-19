@@ -1,9 +1,9 @@
 # Site settings
 title: "atxopendata.rocks"
 description: "Welcome to The Austin Open Data Portal Support"
-baseurl: "https://cityofaustin.github.io/atxopendata.rocks/" # the subpath of your site, e.g. /blog
+baseurl: "/atxopendata.rocks" # the subpath of your site, e.g. /blog
 permalink: pretty
-url: "https://cityofaustin.github.io/atxopendata.rocks/" # the base hostname & protocol for your sites
+url: "https://cityofaustin.github.io/atxopendata.rocks" # the base hostname & protocol for your sites
 localhost: ""
 env: "production"
 logo: /assets/img/logos/go-bot-opd.png
